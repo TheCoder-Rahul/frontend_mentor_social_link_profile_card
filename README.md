@@ -23,12 +23,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Design screenshot](https://github.com/TheCoder-Rahul/frontend_mentor_social_proof_section/blob/main/project_screenshot.png)
+![Design screenshot](https://github.com/TheCoder-Rahul/frontend_mentor_social_link_profile_card/blob/main/project_screenshot.png)
 
 ### Links
 
-- 👉 [Solution URL](https://github.com/TheCoder-Rahul/frontend_mentor_social_proof_section.git)
-- 👉 [Live Site URL](https://thecoder-rahul.github.io/frontend_mentor_social_proof_section/)
+- 👉 [Solution URL](https://github.com/TheCoder-Rahul/frontend_mentor_social_link_profile_card.git)
+- 👉 [Live Site URL](https://thecoder-rahul.github.io/frontend_mentor_social_link_profile_card/)
 
 ## My process
 
