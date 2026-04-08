@@ -42,6 +42,7 @@ main {
   display: grid;
   margin-block: 6rem;
   text-align: center;
+  align-items: center;
   width: min(65rem, 90%);
 }
 .title {
@@ -92,13 +93,14 @@ main {
   height: 2.5rem;
   border-radius: 50%;
 }
-.testimonials section p {
+.testimonials p {
   line-height: 1.5;
 }
 .testmonial_provider h2 {
   font-size: 1.125rem;
 }
 .testmonial_provider p {
+  line-height: 1.2;
   color: var(--soft-pink);
 }
 .attribution { font-size: 0.6875rem; text-align: center; }
@@ -119,11 +121,22 @@ main {
     text-align: start;
     grid-template-columns: repeat(2, 1fr);
   }
+  .ratings, .testimonials {
+    align-items: center;
+  }
   .ratings article {
+    width: 26.25rem;
     flex-direction: row;
     display: inline-flex;
   }
+  .ratings article:first-child, .testimonials article:first-child {
+    align-self: flex-start;
+  }
+  .ratings article:last-child, .testimonials article:last-child {
+    align-self: flex-end;
+  }
   .testimonials {
+    height: 17rem;
     flex-direction: row;
     grid-column: span 2;
   }
